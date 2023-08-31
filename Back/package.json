@@ -1,8 +1,9 @@
 {
   "dependencies": {
+    "@supabase/supabase-js": "^2.33.1",
     "admin": "^1.4.1",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "firebase": "^10.3.0",
     "nodemon": "^3.0.1"
   },
   "name": "back",
