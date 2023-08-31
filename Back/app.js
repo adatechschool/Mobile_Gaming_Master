@@ -2,6 +2,7 @@ import express from "express";
 import homeRouter from "./routes/home.routes.js";
 
 const app = express();
+
 app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader(

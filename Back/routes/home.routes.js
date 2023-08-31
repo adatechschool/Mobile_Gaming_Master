@@ -9,6 +9,7 @@ const homeRouter = express.Router();
 homeRouter.get("/",redirectionHome)
 homeRouter.get("/home", home);
 homeRouter.get("/inscription",inscription)
+homeRouter.post("/inscription",inscription)
 homeRouter.get("/connexion",connexion)
 
 
